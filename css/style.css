@@ -28,6 +28,10 @@ h1, h2, h3, h4, h5, h6 {
   border: 1px solid red;
 }
 
+.mobile {
+  display: none;
+}
+
 .header {
   margin: auto;
   background: linear-gradient(4.11deg, #04265E 17.95%, #006DBD 78.71%);
@@ -98,6 +102,9 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 768px) {
   .item {
     display: none;
+  }
+  .mobile {
+    display: block;
   }
 }
 
