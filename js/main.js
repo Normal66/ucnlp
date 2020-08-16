@@ -33,7 +33,7 @@ DG.then(function () {
         scrollWheelZoom: false /* Запрет прокрутки карты колесом мыши */
     });
     mapicon = DG.icon({
-        iconUrl: '/img/marker.png', /* Иконка маркера */
+        iconUrl: './img/marker.png', /* Иконка маркера */
         iconAnchor: [32, 64],
         popupAnchor: [0, 24],
         className: 'map-icon',
