@@ -7,12 +7,12 @@
 
 @font-face {
   font-family: "BebasNeue Regular";
-  src: url(/font/BebasNeueRegular.otf);
+  src: url(./font/BebasNeueRegular.otf);
 }
 
 @font-face {
   font-family: "Sreda";
-  src: url(/font/Sreda.ttf);
+  src: url(./font/Sreda.ttf);
 }
 
 html, body {
@@ -342,7 +342,7 @@ h1, h2, h3, h4, h5, h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-image: url(/img/vstavka-min.jpg);
+  background-image: url(./img/vstavka-min.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-box-align: center;
